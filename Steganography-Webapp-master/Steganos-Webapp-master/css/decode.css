@@ -1,0 +1,60 @@
+body {
+	padding-right:120px;
+}
+
+h3 {
+	background-color: black;
+	color:white;
+	font-family: arial, helvetica, sans-serif;
+	margin-bottom: 0px;
+}
+
+#controls {
+	position:fixed;
+	right: 10px;
+	top: 10px;
+	width: 102px;
+}
+
+#inputContainer,
+#keyContainer {
+    margin-bottom: 1em;
+}
+
+#inputDrop,
+#keyDrop {
+	background-color: #f2f2de;
+	background-image: url("../images/key_100x100.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 1px solid #666;
+	height: 100px;
+	width: 100px;
+}
+
+#keyDrop {
+	background-image: url("../images/key_100x100.png");
+}
+
+div#inputDrop {
+	background-image: url("../images/robot-monster_100x100.png");
+}
+
+#inputData,
+#keyData {
+	background-color: black;
+	color: white;
+	font-family: arial, helvetica, sans-serif;
+	font-size: x-small;
+	margin: 0em; 
+}
+
+div.imagePair {
+	background-color: #eee;
+	padding:1em;
+}
+
+canvas.coded {
+	float: left;
+	margin-right:1em;
+}
